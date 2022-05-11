@@ -1,30 +1,35 @@
-# ChiMi #
-MIUI扩展插件（LSPosed）
+# ChiMi
+![Xposed](https://img.shields.io/badge/-Xposed-green?style=flat&logo=Android&logoColor=white)
+![GitHub Repo stars](https://img.shields.io/github/stars/yonghen/chimi-)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/yonghen/chimi-?label=version)
+![GitHub all releases](https://img.shields.io/github/downloads/yonghen/chimi-/total)
 
-修改MIUI系统的MIUI增强插件
+[English](https://github.com/yonghen/chimi-/blob/master/README_EN.md)  丨 简体中文</b>
 
+## 模块说明 
+
+MIUI增强扩展模块 (LSPosed/Xposed）
 最新版 V5版本只适用于MIUI13
 
-MIUI13 xposed enhancement extension plugin
+## 模块功能
+- 系统界面增强
+- Android系统增强
+- 手机管家增强
 
----------
-
-失效的可以尝试
-▲①用LSPosed优化应用（如状态栏功能部分失效，LSPosed作用域中长按系统界面选择优化） 
-
-②重新添加应用和重新勾选模块！
-
-③清除ChiMi数据或者重装ChiMi
+查看更新日志和下载使用发现更多功能
 
 
-④停用可能起冲突的Xposed模块和Magisk模块（比如修改系统或者系统界面的Xposed/Magisk模块；停用/删除magisk模块后需要删除/data/system/package-cache/里对应文件）
+## 使用方法
+- 在Xposed管理器(LSPosed)中激活模块
+- 作用域勾选推荐应用
+- 重启目标应用或者重启手机
 
-更多细节写在使用说明中
 
-如果按照软件内说明的操作过后还是不行的可以提交issue。
-
-更新后最好重新勾选并重启，避免出现未知bug。
-
+## 无法使用
+- 停用可能起冲突的Xposed模块和Magisk模块.
+- 重新添加应用和重新勾选模块.
+- 清除ChiMi数据，或者重装ChiMi.
+- MIUI版本不适配
 
 已知bug：
 - 锁屏时间样式选择第四个，添加闹钟失效
@@ -32,7 +37,7 @@ MIUI13 xposed enhancement extension plugin
 - 状态栏添加温度位置2在MIUI13内测版大于3.22后失效
 - MTK部分机型开启音阶修改无声
 
-功能如下图：
+## 模块截图（旧）：
 ![image](https://github.com/yonghen/chimi-/raw/master/img/1.jpg)
 ![image](https://github.com/yonghen/chimi-/raw/master/img/2.jpg)
 ![image](https://github.com/yonghen/chimi-/raw/master/img/3.jpg)
