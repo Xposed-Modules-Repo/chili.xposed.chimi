@@ -11,9 +11,39 @@ MIUI增强扩展模块 (LSPosed/Xposed）
 最新版 V5版本只适用于MIUI13
 
 ## 模块功能
-- 系统界面增强
-- Android系统增强
-- 手机管家增强
+<details>
+<summary>系统界面增强(点击查看详情)</summary>
+
+  - 状态栏隐藏图标与视图 (隐藏飞行模式、信号、静音、震动、电量、VPN...的图标)
+  - 状态栏布局 (时钟居右，时钟居中，信号居左+时钟居中)
+  - 状态栏显示天气、温度、电流
+  - 状态栏时钟自定义 (显示年月日、星期、时辰、秒)
+  - 状态栏双排网速
+  - MIX Alpha 充电动画
+  - 锁屏显示步数
+  - 锁屏显示闹钟
+  
+  ...
+</details>
+<details>
+<summary>Android系统增强(点击查看详情)</summary>
+
+  - 拆分通知音量
+  - 息屏音量键长按动作自定义
+  - 移除不受信任触摸限制
+  
+  ...
+</details>
+<details>
+<summary>手机管家增强(点击查看详情)</summary>
+
+  - 移除打开应用二次确认
+  - 跳过警告时间
+  - 分数锁定
+  
+  ...
+</details>
+
 
 查看更新日志和下载使用发现更多功能
 
@@ -29,17 +59,12 @@ MIUI增强扩展模块 (LSPosed/Xposed）
 - 停用可能起冲突的Xposed模块和Magisk模块.
 - 重新添加应用和重新勾选模块.
 - 清除ChiMi数据，或者重装ChiMi.
-- MIUI版本不适配
+- MIUI版本不适配.
 
 ## 已知bug：
 - 锁屏时间样式选择第四个，添加闹钟失效
 - 锁屏步数位置2失效
 - MTK部分机型开启音阶修改无声
 
-## 模块截图（旧）：
-![image](https://github.com/yonghen/chimi-/raw/master/img/1.jpg)
-![image](https://github.com/yonghen/chimi-/raw/master/img/2.jpg)
-![image](https://github.com/yonghen/chimi-/raw/master/img/3.jpg)
-![image](https://github.com/yonghen/chimi-/raw/master/img/4.jpg)
-![image](https://github.com/yonghen/chimi-/raw/master/img/5.jpg)
-![image](https://github.com/yonghen/chimi-/raw/master/img/6.jpg)
+## 模块截图：
+![image](https://github.com/yonghen/chimi-/raw/master/doc/imgCn.png)
