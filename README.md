@@ -8,9 +8,19 @@
 ## 模块说明 
 
 MIUI增强扩展模块 (LSPosed/Xposed）
-最新版 V5版本只适用于MIUI13
+最新版 V5版本只适用于基于Android12的MIUI13
 
 ## 模块功能
+
+<details>
+  <summary>系统桌面增强(点击查看详情)</summary>
+  
+  - 桌面布局解锁
+  - 桌面双击息屏
+  - 自动关闭文件夹
+  - 文件夹列数设置
+</details>
+
 <details>
 <summary>系统界面增强(点击查看详情)</summary>
 
@@ -56,10 +66,10 @@ MIUI增强扩展模块 (LSPosed/Xposed）
 
 
 ## 无法使用
-- 停用可能起冲突的Xposed模块和Magisk模块.
-- 重新添加应用和重新勾选模块.
-- 清除ChiMi数据，或者重装ChiMi.
-- MIUI版本不适配.
+- 停用可能起冲突的Xposed模块和Magisk模块
+- 重新添加应用和重新勾选模块
+- 清除ChiMi数据，或者重装ChiMi
+- MIUI版本不适配
 
 ## 已知bug：
 - MTK部分机型开启音阶修改无声
